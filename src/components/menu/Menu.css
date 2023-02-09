@@ -1,0 +1,33 @@
+.menu-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+    margin-right: 20px;
+}
+
+.menu {
+    margin-top: 89px;
+    margin-left: 30px;
+}
+
+.menu-btn {
+    width: 284px;
+    height: 58px;
+    margin-left: 130px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: white;
+    background: #000000;
+    border-radius: 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}

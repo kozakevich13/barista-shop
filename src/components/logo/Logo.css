@@ -15,16 +15,18 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 40px;
-
+    min-width: 209px;
     color: #000000;
 }
 
 #barista {
+    margin-right: 275px;
     margin-bottom: 0px;
     margin-top: 25px;
 }
 
 #shop {
+    margin-right: 275px;
     margin-top: 0px;
     margin-left: 80px;
 }
