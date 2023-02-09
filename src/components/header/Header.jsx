@@ -1,10 +1,11 @@
 import './Header.css';
+import Logo from '../logo/Logo'
 
 
 function Header() {
   return (
     <div className="header">
-        header
+       <Logo/>
     </div>
   );
 }

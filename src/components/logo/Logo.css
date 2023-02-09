@@ -1,0 +1,30 @@
+.logo {
+    margin-top: 47px;
+    margin-left: 92px;
+    display: flex;
+}
+
+.logo-img {
+    height: 100px;
+    width: 100px;
+}
+
+.text-logo {
+    font-family: 'NanumMyeongjo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #000000;
+}
+
+#barista {
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+#shop {
+    margin-top: 0px;
+    margin-left: 80px;
+}

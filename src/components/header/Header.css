@@ -1,0 +1,6 @@
+.header {
+    display: flex;
+    top:0;
+    height: 220px;
+    background-color: antiquewhite;
+}
