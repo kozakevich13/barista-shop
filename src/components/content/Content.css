@@ -6,7 +6,6 @@
 }
 
 .content-header {
-    /* font-family: 'NanumMyeongjo'; */
     font-style: normal;
     font-weight: 400;
     font-size: 96px;
@@ -14,10 +13,11 @@
     /* identical to box height */
     padding-top: 30px;
     margin-top: 0px;
-    margin-right: 134px;
+    margin-right: 20%;
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 0px;
+    min-width: 607px;
 }
 
 .text-content {
