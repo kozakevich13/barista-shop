@@ -9,7 +9,6 @@ function Menu() {
         <a className='menu-link' href=''>ОПТ</a>
         <a className='menu-link' href=''>Сервіс</a>
         <a className='menu-link' href=''>Контакти</a>
-        {/* <a className='menu-btn' href=''>Замовити</a> */}
         <Button name='Замовити'/>
     </div>
   );

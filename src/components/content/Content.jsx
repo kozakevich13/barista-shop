@@ -1,6 +1,7 @@
 import './Content.css';
 import Logo from '../logo/Logo'
 import Menu from '../menu/Menu';
+import Button from '../button/Button';
 
 
 function Content() {
@@ -12,6 +13,7 @@ function Content() {
       <div className='text-content'>
         <p className='content-header'>Кава в зернах</p>
         <p className='main-content'>{textContent}</p>
+        <button className='btn-goods'>Всі товари</button>
       </div>
       
      

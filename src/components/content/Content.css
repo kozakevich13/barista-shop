@@ -37,6 +37,19 @@
     margin: 0px;
     margin-left: 10px;
     white-space: pre;
+}
 
-
+.btn-goods {
+    width: 425px;
+    height: 111px;
+    margin-top: 20px;
+    margin-right: 115px;
+    background: #000000;
+    border-radius: 65px;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    cursor: pointer;
 }
