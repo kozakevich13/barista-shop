@@ -1,7 +1,8 @@
 .logo {
     margin-top: 47px;
-    margin-left: 92px;
+    margin-left: 4%;
     display: flex;
+    width: 20%;
 }
 
 .logo-img {
@@ -10,23 +11,25 @@
 }
 
 .text-logo {
+    width: 66%;
+    padding-left: 2%;
     font-family: 'NanumMyeongjo';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 40px;
-    min-width: 209px;
     color: #000000;
 }
 
 #barista {
-    margin-right: 275px;
+    width: 100px;
+    margin-right: 49%;
     margin-bottom: 0px;
     margin-top: 25px;
 }
 
 #shop {
-    margin-right: 275px;
+    width: 100px;
     margin-top: 0px;
-    margin-left: 80px;
+    margin-left: 28%;
 }

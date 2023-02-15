@@ -2,6 +2,7 @@
     width: 100%;
     height: 500px;
     background-image: url('../../img/Rectangle\ 4.png');
+    background-size: cover;
 }
 
 .content-header {

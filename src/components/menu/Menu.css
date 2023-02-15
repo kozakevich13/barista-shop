@@ -5,18 +5,20 @@
     font-size: 30px;
     line-height: 38px;
     color: #000000;
-    margin-right: 20px;
+    margin-right: 2%;
 }
 
 .menu {
     margin-top: 89px;
-    margin-left: 30px;
+    padding-left: 2%;
+    width: 100%;
+    min-width: 858px;
 }
 
 .menu-btn {
     width: 284px;
     height: 58px;
-    margin-left: 130px;
+    margin-left: 10%;
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
