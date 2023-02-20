@@ -10,11 +10,11 @@ function Content() {
   день стане куди цікавішим`
   return (
     <div className="content">
-      <div className='text-content'>
+      {/* <div className='text-content'>
         <p className='content-header'>Кава в зернах</p>
         <p className='main-content'>{textContent}</p>
         <button className='btn-goods'>Всі товари</button>
-      </div>
+      </div> */}
       
      
     </div>

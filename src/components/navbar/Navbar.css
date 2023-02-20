@@ -15,6 +15,7 @@
     color: #fff;
     justify-self: start;
     margin-left: 20px;
+    margin-top: 0px;
     cursor: pointer;
   }
   
@@ -66,7 +67,7 @@
     .nav-menu {
       display: flex;
       flex-direction: column;
-      width: 100%;
+      width: 96%;
       height: 100vh;
       position: absolute;
       top: 80px;
@@ -86,8 +87,9 @@
     .nav-links {
       text-align: center;
       padding: 2rem;
-      width: 100%;
+      width: 75%;
       display: table;
+      margin: 0px;
     }
   
     .nav-links:hover {
@@ -122,6 +124,8 @@
       text-align: center;
       padding: 1.5rem;
       margin: 2rem auto;
+      margin-left: 0px;
+      margin-right: 0px;
       border-radius: 4px;
       width: 80%;
       background: #4ad9e4;

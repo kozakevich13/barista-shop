@@ -9,7 +9,7 @@
 .content-header {
     font-style: normal;
     font-weight: 400;
-    font-size: 96px;
+    font-size: 40px;
     line-height: 120px;
     /* identical to box height */
     padding-top: 30px;
@@ -22,8 +22,8 @@
 }
 
 .text-content {
-  width: 50%;  
-  margin-left: 50%;
+  width: 20px;  
+  /* margin-left: 50%; */
 }
 
 .main-content {
@@ -55,3 +55,124 @@
     line-height: 38px;
     cursor: pointer;
 }
+
+@media screen and (min-width: 400px) {
+    .content {
+        height: 500px;
+        background-image: url('../../img/Rectangle\ 4.png');
+        background-size:     cover;                    
+        background-repeat:   no-repeat;
+        background-position: center center; 
+    }
+    
+    .content-header {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 120px;
+        /* identical to box height */
+        padding-top: 30px;
+        margin-top: 0px;
+        margin-right: 20%;
+        text-align: center;
+        color: red;
+        margin-bottom: 0px;
+        min-width: 607px;
+    }
+    
+    .text-content {
+      width: 50%;  
+      margin-left: 50%;
+    }
+    
+    .main-content {
+        width: 82%;
+        /* font-family: 'NanumMyeongjo'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+    
+        color: #FFFFFF;
+        text-align: center;
+        margin: 0px;
+        margin-left: 10px;
+        white-space: pre;
+    }
+    
+    .btn-goods {
+        width: 425px;
+        height: 111px;
+        margin-top: 20px;
+        margin-right: 115px;
+        background: #000000;
+        border-radius: 65px;
+        color: white;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+        cursor: pointer;
+    }
+  }
+
+@media screen and (min-width: 700px) {
+    .content {
+        height: 500px;
+        background-image: url('../../img/Rectangle\ 4.png');
+        background-size:     cover;                    
+        background-repeat:   no-repeat;
+        background-position: center center; 
+    }
+    
+    .content-header {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 120px;
+        /* identical to box height */
+        padding-top: 30px;
+        margin-top: 0px;
+        margin-right: 20%;
+        text-align: center;
+        color: green;
+        margin-bottom: 0px;
+        min-width: 607px;
+    }
+    
+    .text-content {
+      width: 50%;  
+      margin-left: 50%;
+    }
+    
+    .main-content {
+        width: 82%;
+        /* font-family: 'NanumMyeongjo'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+    
+        color: #FFFFFF;
+        text-align: center;
+        margin: 0px;
+        margin-left: 10px;
+        white-space: pre;
+    }
+    
+    .btn-goods {
+        width: 425px;
+        height: 111px;
+        margin-top: 20px;
+        margin-right: 115px;
+        background: #000000;
+        border-radius: 65px;
+        color: white;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+        cursor: pointer;
+    }
+  }
+
