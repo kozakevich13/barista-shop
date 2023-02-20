@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/barista-shop/static/css/main.dde074c6.css",
-    "main.js": "/barista-shop/static/js/main.27a8a075.js",
+    "main.css": "/barista-shop/static/css/main.d5d6aa6a.css",
+    "main.js": "/barista-shop/static/js/main.f79de651.js",
     "static/js/787.f2a05e1f.chunk.js": "/barista-shop/static/js/787.f2a05e1f.chunk.js",
     "static/media/Rectangle 4.png": "/barista-shop/static/media/Rectangle 4.32399d4fe69249f75e6e.png",
     "static/media/logo.svg": "/barista-shop/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/barista-shop/index.html",
-    "main.dde074c6.css.map": "/barista-shop/static/css/main.dde074c6.css.map",
-    "main.27a8a075.js.map": "/barista-shop/static/js/main.27a8a075.js.map",
+    "main.d5d6aa6a.css.map": "/barista-shop/static/css/main.d5d6aa6a.css.map",
+    "main.f79de651.js.map": "/barista-shop/static/js/main.f79de651.js.map",
     "787.f2a05e1f.chunk.js.map": "/barista-shop/static/js/787.f2a05e1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dde074c6.css",
-    "static/js/main.27a8a075.js"
+    "static/css/main.d5d6aa6a.css",
+    "static/js/main.f79de651.js"
   ]
 }
