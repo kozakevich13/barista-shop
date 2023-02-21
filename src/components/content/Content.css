@@ -1,6 +1,14 @@
-.content {
-    height: 500px;
-    background-image: url('../../img/Rectangle\ 4.png');
+/* .content {
+    height: 105vh;
+    background-image: url('../../img/Rectangle\ 5.png');
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center; 
+} */
+
+body {
+    height: 105vh;
+    background-image: url('../../img/Rectangle\ 5.png');
     background-size:     cover;                    
     background-repeat:   no-repeat;
     background-position: center center; 
@@ -14,11 +22,11 @@
     /* identical to box height */
     padding-top: 30px;
     margin-top: 0px;
-    margin-right: 20%;
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 0px;
-    min-width: 607px;
+    min-width: 375px;
+    margin-right: 5%;
 }
 
 .text-content {
@@ -27,57 +35,50 @@
 }
 
 .main-content {
-    width: 82%;
+    min-width: 350px;
     /* font-family: 'NanumMyeongjo'; */
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 38px;
+
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
 
     color: #FFFFFF;
-    text-align: center;
     margin: 0px;
     margin-left: 10px;
     white-space: pre;
 }
 
 .btn-goods {
-    width: 425px;
-    height: 111px;
-    margin-top: 20px;
-    margin-right: 115px;
-    background: #000000;
-    border-radius: 65px;
-    color: white;
+    width: 183px;
+    height: 47.8px;
+    margin-top: 100px;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 38px;
+    font-size: 12.9176px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 65px;
     cursor: pointer;
+    border: solid 1px black;
+    position: absolute;
+    right: 32px;
 }
 
+
 @media screen and (min-width: 400px) {
-    .content {
-        height: 500px;
-        background-image: url('../../img/Rectangle\ 4.png');
+    body {
+        height: 105vh;
+        background-image: url('../../img/Rectangle\ 5.png');
         background-size:     cover;                    
         background-repeat:   no-repeat;
         background-position: center center; 
     }
     
     .content-header {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 96px;
-        line-height: 120px;
-        /* identical to box height */
-        padding-top: 30px;
-        margin-top: 0px;
-        margin-right: 20%;
-        text-align: center;
-        color: red;
-        margin-bottom: 0px;
-        min-width: 607px;
+       display: none;
     }
     
     .text-content {
@@ -173,6 +174,15 @@
         font-size: 30px;
         line-height: 38px;
         cursor: pointer;
+    }
+
+    body {
+        background-image: none;
+        background-size:     cover;                    
+        background-repeat:   no-repeat;
+        background-position: center center; 
+        background-color: white;
+        height: 105vh;
     }
   }
 

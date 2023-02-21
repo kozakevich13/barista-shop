@@ -10,13 +10,15 @@ function Content() {
   день стане куди цікавішим`
   return (
     <div className="content">
-      {/* <div className='text-content'>
+      <div className='text-content'>
         <p className='content-header'>Кава в зернах</p>
-        <p className='main-content'>{textContent}</p>
+        <p className='main-content'>
+          Кава - це супутник творчих людей. <br/>
+          Якщо ранок починати з ароматної кави ,то <br/>
+          день стане куди цікавішим
+        </p>
         <button className='btn-goods'>Всі товари</button>
-      </div> */}
-      
-     
+      </div>
     </div>
   );
 }

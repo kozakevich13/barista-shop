@@ -3,22 +3,18 @@
     margin-left: 4%;
     display: flex;
     width: 20%;
+    position: absolute;
+    left: 0;
+    bottom: 165px;
 }
 
 .logo-img {
-    height: 100px;
-    width: 100px;
+    height: 45px;
+    width: 45px;
 }
 
 .text-logo {
-    width: 66%;
-    padding-left: 2%;
-    font-family: 'NanumMyeongjo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 40px;
-    color: #000000;
+   display: none;
 }
 
 #barista {
@@ -32,4 +28,74 @@
     width: 100px;
     margin-top: 0px;
     margin-left: 28%;
+}
+
+@media screen and (min-width: 400px) { 
+    .logo {
+        margin-top: 47px;
+        margin-left: 4%;
+        display: flex;
+        width: 20%;
+    }
+    
+    .logo-img {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .text-logo {
+        display: none;
+    }
+    
+    #barista {
+        width: 100px;
+        margin-right: 49%;
+        margin-bottom: 0px;
+        margin-top: 25px;
+    }
+    
+    #shop {
+        width: 100px;
+        margin-top: 0px;
+        margin-left: 28%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .logo {
+        margin-top: 47px;
+        margin-left: 4%;
+        display: flex;
+        width: 20%;
+    }
+    
+    .logo-img {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .text-logo {
+        display: block;
+        width: 66%;
+        padding-left: 2%;
+        font-family: 'NanumMyeongjo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+        color: #000000;
+    }
+    
+    #barista {
+        width: 100px;
+        margin-right: 49%;
+        margin-bottom: 0px;
+        margin-top: 25px;
+    }
+    
+    #shop {
+        width: 100px;
+        margin-top: 0px;
+        margin-left: 28%;
+    } 
 }

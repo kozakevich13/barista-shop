@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Logo from "../logo/Logo";
 import Button from "./Button";
 import menuItems from "./MenuItems";
 import "./Navbar.css";
@@ -12,9 +13,10 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <h1 className="navbar-logo">
+      {/* <h1 className="navbar-logo">
         React <i className="fab fa-react"></i>
-      </h1>
+      </h1> */}
+      <Logo/>
       <div className="menu-icon" onClick={handleClick}>
         <i className={active ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
@@ -29,7 +31,7 @@ const Navbar = () => {
           );
         })}
       </ul>
-      <Button>SIGN UP</Button>
+      {/* <Button>SIGN UP</Button> */}
     </nav>
   );
 };
